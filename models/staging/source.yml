@@ -1,0 +1,14 @@
+
+version: 2
+
+sources:
+  - name: chinook # Ce nom est arbitraire, vous pouvez le choisir
+    database: "{{ target.project }}" # Inférence automatique du projet BigQuery
+    schema: bi_chinook_dataset # Le nom du chinook dataset
+    tables:
+      - name: customer
+      - name: employee
+      - name: invoice
+      - name: invoice_line
+      - name: track
+      - name: artist
