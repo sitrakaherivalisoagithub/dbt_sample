@@ -1,4 +1,4 @@
--- models/datawarehouse/stg_invoices.sql
+-- models/staging/stg_invoices.sql
 
 WITH source AS (
     -- On sélectionne les données brutes de la table invoice

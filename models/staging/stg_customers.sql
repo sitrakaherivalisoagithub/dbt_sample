@@ -1,4 +1,4 @@
--- models/datawarehouse/stg_customers.sql
+-- models/staging/stg_customers.sql
 
 WITH source AS (
     -- On sélectionne les données brutes de la table customer
